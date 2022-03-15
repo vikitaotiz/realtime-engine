@@ -15,6 +15,6 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(4000, () => {
-  console.log('listening on *:4000');
+server.listen(6061, () => {
+  console.log('listening on *:6061');
 });
