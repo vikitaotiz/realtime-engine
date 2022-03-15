@@ -15,6 +15,7 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(6061, () => {
-  console.log('listening on *:6061');
+const PORT = process.env.PORT || 4000
+server.listen(PORT, () => {
+  console.log(`listening on *:${PORT}`);
 });
